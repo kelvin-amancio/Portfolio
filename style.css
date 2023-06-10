@@ -1,0 +1,442 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color: hsl(228, 15%, 20%);
+}
+
+header {
+  background-color: rgba(30, 30, 32, 0.224);
+  width: 100%;
+  margin: 0;
+}
+header nav {
+  height: 1.3rem;
+}
+
+img {
+  height: 25rem;
+}
+
+h3 {
+  color: #faf2f2;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #2fe885;
+  font-size: 3.7rem;
+}
+
+span {
+  color: rgba(216, 216, 216, 0.8745098039);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 32px;
+}
+
+ul .navText {
+  color: #faf2f2;
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+ul a {
+  color: #faf2f2;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navText a {
+  font-weight: 600;
+}
+.navText a:hover {
+  color: #2fe885;
+}
+
+.NavLi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container-principal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-sec {
+  margin-top: -2rem;
+}
+
+.icons {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.icons ul:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  height: 1.5rem;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  background-color: #2fe885;
+  color: #ffffff;
+  clip-path: circle(40%);
+}
+
+.fsd {
+  display: inline;
+  color: #faf2f2;
+  font-size: 2rem;
+}
+
+.CardContent {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  row-gap: 1rem;
+}
+
+.CardContent2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.figure-Ctt {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-flex {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 30rem;
+  height: 7rem;
+  background-color: rgba(106, 106, 116, 0.224);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.card h3 {
+  font-size: 1.2rem;
+  color: #2fe885;
+}
+
+.card-flex2 {
+  width: 45rem;
+  height: 40rem;
+  background-color: rgba(71, 71, 78, 0.224);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-flex2 .input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.card-flex2 .input-group input {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+}
+.card-flex2 .input-group textarea {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  resize: vertical;
+}
+
+.cardEmail {
+  background-color: rgba(187, 187, 201, 0.062);
+  width: 30rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ri-close-line {
+  display: none;
+}
+
+.ri-menu-line {
+  display: block;
+}
+
+.nav-contentt {
+  display: none;
+}
+
+.menu {
+  padding-right: 1rem;
+  color: #faf2f2;
+  font-size: 1.5rem;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+
+.FunctionsIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons-linguagens {
+  margin-top: 1rem;
+}
+
+.container-principal {
+  height: 100vh;
+}
+
+.form-inf {
+  display: flex;
+}
+
+.borderEmail {
+  height: 1.5rem;
+  padding: 0.7rem;
+  padding-bottom: 1.2rem;
+  font-size: 1.5rem;
+  background-color: #2fe885;
+  color: #ffffff;
+  clip-path: circle(40%);
+}
+
+.content-Email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#figure-span {
+  color: rgba(216, 216, 216, 0.8745098039);
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+#my {
+  color: #faf2f2;
+}
+
+#figure-p {
+  font-size: 1.8rem;
+  color: #faf2f2;
+  font-style: italic;
+}
+
+#figure-h4 {
+  font-size: 1.4rem;
+  color: #faf2f2;
+}
+
+#img-center {
+  margin-top: -2rem;
+  animation: anim 1s linear infinite alternate;
+}
+
+#about {
+  background-color: rgba(30, 30, 32, 0.224);
+}
+
+#MyFunctions {
+  position: relative;
+  top: 3px;
+}
+
+#back-to-top {
+  position: fixed;
+  width: 2rem;
+  height: 1rem;
+  background-color: red;
+  z-index: 1;
+  float: left;
+}
+
+#imgFunctions {
+  height: 2rem;
+  color: #2fe885;
+  float: right;
+}
+
+#btn-Send {
+  background-color: #2fe885;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#email-txt {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#email-txt2 {
+  color: #faf2f2;
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: -7rem;
+}
+
+#h4Email {
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.7rem;
+}
+
+#spanEmail {
+  color: #faf2f2;
+  font-size: 1.3rem;
+  padding-top: 0.7rem;
+}
+
+@keyframes anim {
+  0% {
+    position: relative;
+    top: 0;
+  }
+  100% {
+    position: relative;
+    top: 1.2rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .container-principal {
+    flex-direction: column;
+    text-align: center;
+  }
+  .CardContent {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .CardContent #figure-p {
+    font-size: 1.2rem;
+  }
+  .CardContent #figure-span {
+    font-size: 1.05rem;
+  }
+  .CardContent2 {
+    background-color: rgba(71, 71, 78, 0.224);
+  }
+  .CardContent2 .cardEmail {
+    display: none;
+  }
+  .CardContent2 .card-flex2 {
+    width: 0;
+  }
+  .card {
+    width: 25rem;
+  }
+  .nav-content {
+    display: none;
+  }
+  .ri-menu-line:hover {
+    color: #2fe885;
+  }
+  .ri-close-line:hover {
+    color: #2fe885;
+  }
+  .nav-contentt {
+    display: none;
+    padding-bottom: 1rem;
+  }
+  .NavLi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .menu {
+    display: block;
+    text-align: end;
+  }
+  .open {
+    display: block;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #img-center {
+    height: 20rem;
+    position: relative;
+    left: 30px;
+  }
+  h3 {
+    color: #faf2f2;
+    font-size: 1.5rem;
+  }
+  h2 {
+    color: #2fe885;
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=style.CSS.map */

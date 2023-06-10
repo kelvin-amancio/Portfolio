@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+    
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png"/>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Kelvin Almeida</title>
+</head>
+<body>
+  <header> 
+    <nav>
+      <div class="bar menu" ><i class="ri-menu-line" id="bar" onclick="MenuHidden()"></i></div>
+      <div class="bar menu" ><i class="ri-close-line" id="barclose" onclick="MenuHidden()"></i></div>
+      <div class="nav-content">
+       <li class="NavLi" id="menu">
+            <ul class="navText"><a href="#home">Home</a></ul>
+            <ul class="navText"><a href="#about">About</a></ul>
+            <ul class="navText"><a href="#contact">Contact</a></ul>
+        </li>
+      </div>
+    </nav>
+    <div class="nav-contentt">
+      <li class="NavLi" id="menu">
+           <ul class="navText"><a href="#home">Home</a></ul>
+           <ul class="navText"><a href="#about">About</a></ul>
+           <ul class="navText"><a href="#contact">Contact</a></ul>
+       </li>
+     </div>
+  </header> 
+  <section class="container-principal" id="home">
+    <div class="content-sec"> 
+       <h3 class="animate__animated animate__fadeIn">Olá! <span id="my">Eu sou</span></h3>
+       <h2 class="animate__animated animate__fadeIn">Kelvin Almeida</h2>
+       <div class="animate__animated animate__fadeIn fsd"></div>
+       <div class="animate__animated animate__fadeIn">
+        <li class="icons">
+            <ul><a href="https://github.com/kelvin-amancio"><i class="ri-github-fill icon"></i></a></ul>
+            <ul><a href="https://www.linkedin.com/in/kelvin-almeida-99aa5b205/"><i class="ri-linkedin-box-fill icon"></i></a></ul>
+        </li>
+    </div>
+    </div>
+    <img id="img-center" src="img/headerimg.svg" alt="imagem">
+  </section>
+  <section class="CardContent" id="about">
+    <div class="card-flex"> 
+    <div class="card" id="card1">
+        <h3>Front-End</h3>
+        <span id="MyFunctions">Html, Css, TypeScript, JavaScript, Angular, BootStrap, PrimeNg.</span>
+      </div>
+    <div class="card">
+        <h3>Back-End</h3>
+        <span id="MyFunctions">C#, .Net, Asp.Net, Sql, Azure DevOps, Api Rest.</span>
+    </div>
+    <div class="card">
+        <h3>Mobile</h3>
+        <span id="MyFunctions">Ionic.</span>
+    </div>
+  </div>
+    <div class="figure-Ctt">
+      <p id="figure-p">Todo grande projeto começa com uma história ainda melhor.</p>
+      <span id="figure-span">Procurando ampliar e desenvolver projetos, atuo como desenvolvedor Full-Stack, criando aplicações em Angular, .Net, C# e Ionic. Aplicações desde controle estatítico para Mobile, até grandes projetos logísticos via web. Contendo 2 anos de experiência, procuro ampliar e desenvolver meus conhecimentos para proporcionar satisfação para o cliente.</span>
+    </div>
+ </section>
+ <footer class="CardContent2" id="contact">
+  <div class="card-flex2"> 
+    <div class="forms">
+      <h3 id="email-txt">Contate-nos</h3>
+     <div class="input-group"> 
+      <input type="email" name="name" id="username" placeholder="Digite seu nome" required >
+     </div>
+
+     <div class="input-group"> 
+      <input type="email" name="emaill" id="email" placeholder="Digite seu email" required >
+     </div>
+     <div class="input-group"> 
+      <textarea type="email" name="msg" id="msg" placeholder="Digite sua mensagem" required ></textarea>
+     </div>
+
+     <button id="btn-Send" onclick="sendEmail()">Enviar</button>
+    </div>
+  </div>    
+  <div class="cardEmail" id="card1">
+    <p id="email-txt2">Grande visão sem ótimas pessoas é irrelevante. Vamos trabalhar juntos!</p>
+    <div class="content-Email">
+    <div class="form-inf">
+      <h4 id="h4Email">Celular:</h4>
+      <span id="spanEmail">(21) 97493-3133</span>
+     </div>
+
+     <div class="form-inf">
+      <h4 id="h4Email">Email:</h4>
+      <span id="spanEmail"> kelvinamancio10@gmail.com</span>
+     </div>
+     <div class="form-inf">
+      <h4 id="h4Email">Localização:</h4>
+      <span id="spanEmail">Rio de Janeiro - Brasil</span>
+     </div>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>
