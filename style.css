@@ -391,7 +391,10 @@ ul a {
     width: 0;
   }
   .card {
-    width: 25rem;
+    width: 20rem;
+  }
+  .figure-Ctt{
+   width: 23rem; 
   }
   .nav-content {
     display: none;
